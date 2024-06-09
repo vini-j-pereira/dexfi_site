@@ -157,3 +157,72 @@ section.blockchain{
     margin-top: 10px;
     color: var(--color-primary);
 }
+
+.jogue-junto{
+    width: 100%;
+    height: 70vh;
+    background: var(--color-blue-secondary);
+    opacity: .9;
+    display: flex;
+}
+
+.box-junto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.text-junto h3{
+    color: var(--color-white);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+
+}
+
+.text-junto p{
+    text-align: justify;
+    color: var(--color-background-silver);
+    font-weight: bold;
+}
+
+.img-junto img{
+    width: 300px;
+}
+
+.text-junto-secundary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-top: 120px;
+}
+
+.text-junto-secundary p{
+    color: var(--color-background-silver);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-junto-secundary button a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.text-junto-secundary button{
+    border: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: var(--color-background);
+    box-shadow: 0px 8px 10px -5px #0a193f;
+    
+}
+
+.text-junto-secundary button:hover{
+    background-color: #8b8989;
+}
+
