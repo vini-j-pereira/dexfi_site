@@ -230,6 +230,8 @@ section.blockchain{
     border-radius: 10px;
     background-color: var(--color-background);
     box-shadow: 0px 8px 10px -5px #0a193f;
+    transition: .2s ease-in-out;
+    cursor: pointer;
     
 }
 
@@ -237,3 +239,130 @@ section.blockchain{
     background-color: #8b8989;
 }
 
+.tokens{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-tokens{
+    width: 100%;
+    height: 50px;
+}
+
+.carrossel{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: var(--delay);
+}
+
+.item img{
+    padding-top: 20px;
+    width: 60%;
+}
+
+@keyframes autoRun {
+    from{
+        left: 100%;
+    }
+    to{
+        left: -50px;
+    }
+}
+
+.content-tokens{
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.title-tokens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-tokens h2{
+    color: var(--color-white);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.title-tokens h2 span{
+    color: var(--color-primary);
+}
+
+.title-tokens p{
+    color: var(--color-white);
+    text-align: center;
+    width: 900px;
+}
+
+.subtitle-tokens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.subtitle-tokens h3{
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.subtitle-tokens p{
+    color: var(--color-white);
+    width: 900px;
+    text-align: center;
+}
+
+
+.box-1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-tks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 5px var(--color-silver-title);
+}
+
+.box-tks i{
+    color: var(--color-blue-secondary);
+    font-size: 35px;
+}
+
+.box-tks p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.box-tks p strong{
+    color: var(--color-white);
+    padding: 30px 0;
+}
+
+.box-tks span{
+    color: var(--color-background-silver);
+}
