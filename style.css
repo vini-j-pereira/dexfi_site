@@ -468,11 +468,13 @@ th {
 }
 
 .positive {
-    color: green;
+    color: #77ff77;
+    text-shadow: 0px 0px 8px;
 }
 
 .negative {
-    color: red;
+    color: #ff3b3b;
+    text-shadow: 0px 0px 8px;
 }
 
 
