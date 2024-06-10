@@ -366,3 +366,46 @@ section.blockchain{
 .box-tks span{
     color: var(--color-background-silver);
 }
+
+.container-sobre{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right, #000, #00000088, #00000011
+    ), url(image/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-sobre{
+    margin-top: 80px;
+}
+
+.title-sobre h2{
+    width: 100%;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #5a5a5a83;
+    padding: 40px 110px;
+    border-radius: 5px;
+}
+
+.title-sobre h2 span{
+    color: var(--color-primary);
+    
+}
+
+.title-sobre h3{
+    color: var(--color-blue-secondary);
+}
+ .title-sobre p{
+    color: var(--color-white);
+ }
+
+.text-sobre > h3, p{
+    margin-left: 4%;
+    margin-right: 4%;
+ }
