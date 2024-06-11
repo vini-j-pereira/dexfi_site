@@ -478,3 +478,55 @@ th {
 }
 
 
+
+
+
+/* DEFI */
+
+h2 {
+    color: var(--color-white);
+    font-family: "Bebas Neue", sans-serif !important;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#swap-interface {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ label {
+    display: block;
+    margin-top: 10px;
+}
+
+ select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ button:hover {
+    background-color: #218838;
+}
+
+

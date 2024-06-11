@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="resposivo.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DEFI</title>
+</head>
+<body>
+    
+         <h2>Realize Compras e Swaps de Cripto Ativos</h2>
+    <button id="connectButton">Conectar Carteira</button>
+    <div id="walletAddress"></div>
+
+    <div id="swap-interface" style="display: none;">
+        <label for="from-token">De:</label>
+        <select id="from-token">
+            <!-- Tokens serão carregados aqui -->
+        </select>
+        <input type="number" id="from-amount" placeholder="Quantia">
+
+        <label for="to-token">Para:</label>
+        <select id="to-token">
+            <!-- Tokens serão carregados aqui -->
+        </select>
+        <input type="number" id="to-amount" placeholder="Quantia" disabled>
+
+        <button id="swap-button">Swap</button>
+    </div>
+
+    <h2>Buscar Token</h2>
+    <input type="text" id="tokenSearch" placeholder="Buscar token...">
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/@metamask/detect-provider"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
