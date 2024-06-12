@@ -15,29 +15,33 @@
     <title>DEFI</title>
 </head>
 <body>
+
+    <section class="container-defi">
+        <h2>Realize Compras e Swaps de Cripto Ativos</h2>
+        <button id="connectButton">Conectar Carteira</button>
+        <div id="walletAddress"></div>
+
+        <div id="swap-interface" style="display: none;">
+            <label for="from-token">De:</label>
+            <select id="from-token">
+                <!-- Tokens serão carregados aqui -->
+            </select>
+            <input type="number" id="from-amount" placeholder="Quantia">
+
+            <label for="to-token">Para:</label>
+            <select id="to-token">
+                <!-- Tokens serão carregados aqui -->
+            </select>
+            <input type="number" id="to-amount" placeholder="Quantia" disabled>
+
+            <button id="swap-button">Swap</button>
+        </div>
+
+        <h2>Buscar Token</h2>
+        <input type="text" id="tokenSearch" placeholder="Buscar token...">
+    </section>
     
-         <h2>Realize Compras e Swaps de Cripto Ativos</h2>
-    <button id="connectButton">Conectar Carteira</button>
-    <div id="walletAddress"></div>
-
-    <div id="swap-interface" style="display: none;">
-        <label for="from-token">De:</label>
-        <select id="from-token">
-            <!-- Tokens serão carregados aqui -->
-        </select>
-        <input type="number" id="from-amount" placeholder="Quantia">
-
-        <label for="to-token">Para:</label>
-        <select id="to-token">
-            <!-- Tokens serão carregados aqui -->
-        </select>
-        <input type="number" id="to-amount" placeholder="Quantia" disabled>
-
-        <button id="swap-button">Swap</button>
-    </div>
-
-    <h2>Buscar Token</h2>
-    <input type="text" id="tokenSearch" placeholder="Buscar token...">
+         
     
    
 

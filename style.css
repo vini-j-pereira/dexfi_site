@@ -483,12 +483,23 @@ th {
 
 /* DEFI */
 
-h2 {
+.container-defi{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+.container-defi h2 {
     color: var(--color-white);
     font-family: "Bebas Neue", sans-serif !important;
     font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 #swap-interface {
@@ -501,12 +512,12 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
- label {
+ .container-defi label {
     display: block;
     margin-top: 10px;
 }
 
- select, input {
+ .container-defi select, input {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -514,19 +525,22 @@ h2 {
     border-radius: 5px;
 }
 
- button {
+ .container-defi button {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
     background-color: var(--color-primary);
     color: #fff;
     border: none;
+    font-size: 16px;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    transition: .2s ease-in-out;
 }
 
- button:hover {
-    background-color: #218838;
+ .container-defi button:hover {
+    box-shadow: 0px 0px 10px var(--color-primary);
 }
 
 
